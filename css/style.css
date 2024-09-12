@@ -1,0 +1,237 @@
+/* index.html */
+body {
+    background-color: #212121;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    background-color: #282828;
+    padding: 30px;
+
+}
+
+.navegacion {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  
+#runa {
+    border-radius: 50%;
+    height: 40px;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+}
+
+#runa:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+  
+a {
+    color: #fff;
+    font-family: 'Signika Negative';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #a8a8a8;
+}
+
+#guardado {
+    height: 35px;
+}
+
+.contenedor-guardado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #fff;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Signika Negative';
+    font-size: 25px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(7, 440px);
+    grid-auto-flow: dense;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imagen {
+    background-repeat: no-repeat; /* para no repetir la imagen */
+    background-size: cover; 
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+  
+.imagen:hover {
+    filter: blur(5px); /* desenfoque de imagen */
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#kimetsu{
+    background-image: url("/imagenes/kimetsu.webp");
+}
+
+#snk {
+    background-image: url("/imagenes/snk.jpg");
+}
+
+#jujutsu{
+    background-image: url("/imagenes/jujutsu.webp");
+}
+
+#naruto {
+    background-image: url("/imagenes/naruto.jpe");
+}
+
+#mob {
+    background-image: url("/imagenes/mob.webp");
+}
+
+#darling {
+    background-image: url("/imagenes/darling.jpe");
+}
+
+#akudama {
+    background-image: url("/imagenes/akudama.jpe");
+}
+
+#rezero {
+    background-image: url("/imagenes/rezero.jpg");
+}
+
+#spice {
+    background-image: url("/imagenes/spice.jpg");
+}
+
+#spy {
+    background-image: url("/imagenes/spyfamily.webp");
+}
+
+#rent {
+    background-image: url("/imagenes/Rent-A-Girlfriend.jpg");
+}
+
+#overlord {
+    background-image: url("/imagenes/overlord.jpe");
+}
+
+#mieruko {
+    background-image: url("/imagenes/mieruko.webp");
+}
+
+#mushoku {
+    background-image: url("/imagenes/mushoku.jpe");
+}
+
+#quinti {
+    background-image: url("/imagenes/quintillizas.webp");
+}
+
+#kaguya {
+    background-image: url("/imagenes/kaguya.jpg");
+}
+
+#princes {
+    background-image: url("/imagenes/princes.jpe");
+}
+
+#horimiya {
+    background-image: url("/imagenes/horimiya.jpe");
+}
+
+#erased {
+    background-image: url("/imagenes/erased.jpe");
+}
+
+#devil {
+    background-image: url("/imagenes/devil.jpg");
+}
+
+#oshi {
+    background-image: url("/imagenes/oshi.webp");
+}
+
+#konosuba {
+    background-image: url("/imagenes/Konosuba.webp");
+}
+
+#fraxx {
+    background-image: url("/imagenes/darling.jpg");
+}
+
+#seishun {
+    background-image: url("/imagenes/seishun.jpg");
+}
+
+#chaisaw {
+    background-image: url("/imagenes/chainsaw.jpe");
+}
+
+#tengoku {
+    background-image: url("/imagenes/Tengoku-Daimakyou.jpg");
+}
+
+#dog {
+    background-image: url("/imagenes/dog.jpg");
+}
+
+footer {
+    background-color: #282828;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 95px);
+    grid-auto-flow: dense;
+    justify-content: center;
+    gap: 30px;
+    transition: transform 0.3s ease;
+}
+
+.redes-sociales {
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    grid-template-rows: repeat(2, 30px);
+    grid-auto-flow: dense;
+    gap: 30px;
+}
+
+.redes {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.redes:hover {
+    transform: scale(1.1);
+}
+
+.icono {
+    height: 20px;
+}
+
+.redes--xd {
+    grid-column: 1 / 5;
+    text-align: center;
+    color: #fff;
+    font-family: 'Signika Negative';
+    font-size: 15px;
+}
